@@ -1,11 +1,12 @@
-def is_prime_num(n):
-    answer = []
-    for n in n :
-        for i in range(2, n):
-            if n % i == 0:
-                answer.append(False)
+def solution(num_list):
+    answer = [True] * len(num_list)
+    for i in range(len(num_list)):
+        num = num_list[i]
+        for j in range(2, num):
+            if num % j == 0:
+                answer[i] = False
                 break
-            else: answer.append(True)
+        else: answer[i] = True
     print(answer)
     return answer
 
@@ -14,4 +15,4 @@ def is_prime_num(n):
 num_list = [2, 3, 4, 5, 6, 7, 8, 9]
 
 
-is_prime_num(num_list)
+solution(num_list)
