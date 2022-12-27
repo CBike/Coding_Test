@@ -14,6 +14,5 @@ def solution(A, B):
         else:
             text.insert(0, text.pop())
             answer += 1
-
     return -1
 solution('hello','ohell')
