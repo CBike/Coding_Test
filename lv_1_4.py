@@ -16,6 +16,4 @@ def solution(A, B):
             answer += 1
 
     return -1
-
-
 solution('hello','ohell')
