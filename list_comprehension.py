@@ -14,8 +14,6 @@ array_map = [[0] * m for _ in range(n)]
 print(array_map)
 for item in array_map:
     print(item)
-
-
 # 리스트에서 특정값을 가지는 원소를 모드 제거하기
 a = [1, 2, 3, 4, 5, 5]
 remove_set = {3, 5}

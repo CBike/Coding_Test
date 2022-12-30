@@ -5,6 +5,7 @@ A를 밀어서 B가 될 수 있다면 몇 번 밀어야 하는지 횟수를 retu
 -1을 return 하도록 solution 함수를 완성해보세요.
 """
 
+
 def solution(A, B):
     answer = 0
     text = list(A)

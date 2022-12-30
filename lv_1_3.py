@@ -9,6 +9,8 @@ def solution(num: int, total: int) -> list:
     average = total // num
     return [i for i in range(average - (num-1)//2, average + (num + 2)//2)]
 
+
+
 sol = solution(3, 12)
 print(sol)
 sol = solution(5, 15)

@@ -1,3 +1,4 @@
+
 def solution(num_list):
     answer = [True] * len(num_list)
     for i in range(len(num_list)):
