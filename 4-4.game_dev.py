@@ -1,6 +1,6 @@
 """
 ..............................................mmmmmmmmmm
-
+dddddddd
 """
 input_data = input().split()
 data_N = input_data[0]
