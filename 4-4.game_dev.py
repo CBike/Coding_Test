@@ -1,5 +1,6 @@
 """
 게임 개발 알고리즘
+red_demdation_2
 """
 input_data = input().split()
 data_N = input_data[0]
