@@ -1,6 +1,6 @@
 """
 게임 개발 알고리즘
-
+이것이 코딩 테스트다 with python 118p
 """
 # N, M을 공백으로 구분하여 입력 받기
 n, m = map(int, input().split())
